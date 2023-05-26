@@ -22,6 +22,11 @@ footer{
 }
 .hero{
     background-color: aquamarine;
+    display: flex;
+}
+.imgHero{
+    width: 40rem;
+    height: 40rem;
 }
 .seccionDos{
     background-color: darkgoldenrod;
