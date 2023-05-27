@@ -30,6 +30,18 @@ footer{
 }
 .seccionDos{
     background-color: darkgoldenrod;
+    display: flex;
+    
+   
+}
+.imgPaginaDos{
+    width: 30rem;
+    height: 30rem;
+}
+
+
+.divBotonesPagDos{
+    display: flex;
 }
 .seccionSkill{
     background-color: gold;
@@ -39,4 +51,22 @@ footer{
 }
 .seccionContacto{
     background-color: lawngreen;
+}
+
+/*subcontenedores de los principales*/
+.seccionDos .divContenedor{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.seccionDos .divDatosdeContacto{
+    display: flex;
+    
+}
+.seccionDos .divTituloImg{
+    flex-direction: column;
+}
+.seccionDos .divContenedorBio{
+    display: flex;
 }
