@@ -51,14 +51,16 @@ footer{
 }
 .seccionContacto{
     background-color: lawngreen;
+    flex-direction: column;
 }
+
+
+    
 
 /*subcontenedores de los principales*/
 .seccionDos .divContenedor{
     display: flex;
     flex-direction: column;
-    
-    
 }
 .seccionDos .divDatosdeContacto{
     display: flex;
@@ -69,4 +71,18 @@ footer{
 }
 .seccionDos .divContenedorBio{
     display: flex;
+}
+.seccionContacto .divInput{
+    display: flex;
+    flex-direction: column;
+}
+.divFooter{
+    display: flex;
+}
+.divQuick{
+    display: flex;
+}
+.divQuickLink{
+    display: flex;
+    flex-direction: column;
 }
