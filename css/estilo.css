@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +7,8 @@
 /*limpiar efectos que vienen por defecto*/
 a{
     text-decoration: none;
-    color:white
+    color:white;
+    font-family: 'Mulish', sans-serif;
 }
 ul{
     list-style-type: none;
@@ -16,19 +17,27 @@ header{
     background-color: chartreuse;
     display: flex;
     justify-content: space-evenly;
+    height: 5rem;
+    align-items: center;
 }
 footer{
+    padding: 4.5rem 0;
     background-color: springgreen;
 }
+
 .hero{
+    
     background-color: aquamarine;
     display: flex;
+    height: 140vh;
+    
 }
 .imgHero{
     width: 40rem;
-    height: 40rem;
+    
 }
 .seccionDos{
+    padding: 4.5rem 0;
     background-color: darkgoldenrod;
     display: flex;
     
@@ -44,12 +53,15 @@ footer{
     display: flex;
 }
 .seccionSkill{
+    padding: 4.5rem 0;
     background-color: gold;
 }
 .seccionPortfolio{
+    padding: 4.5rem 0;
     background-color:violet;
 }
 .seccionContacto{
+    padding: 4.5rem 0;
     background-color: lawngreen;
     flex-direction: column;
 }
@@ -86,3 +98,110 @@ footer{
     display: flex;
     flex-direction: column;
 }
+.contenedorRedesSociales{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contenedorRedesSociales a{
+    transform: scale(1);
+    margin-top: 1rem;
+}
+.contenedorRedesSociales a:hover{
+    transform: scale(1);
+    color: rgb(80, 80, 190);
+}
+.contenedorRedesSociales a{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+.botonRedesSociales{
+    height: 4rem;
+    background-color:  aquamarine;
+    border: aquamarine;
+    margin-left: 0.4rem ;
+    margin-top: 0.3rem;
+    border-left: 3px solid rgb(80, 80, 190);
+    
+}
+.hola{
+    justify-content: center;
+    display: block;
+    width: 20rem;
+    margin-left: 18rem;
+    font-size: 15rem;
+    font-weight: 900;
+    color: moccasin;
+}
+.divNombre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.soy{
+    margin-right: 11rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.montenegro{
+    font-family: 'Mulish', sans-serif;
+}
+
+.rodrigo{
+    margin-left: 1rem;
+    margin-top: -0.5rem;
+    font-family: 'Mulish', sans-serif;
+    
+
+}
+/*estilos para etiquetas de los contenedores*/
+header p{
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    cursor: pointer;
+    
+}
+header a{
+    transform: scale(1);
+    margin-left: 2rem;
+    font-size: 0.8rem;
+}
+header a:hover{
+    transform: scale(1);
+    margin-left: 2rem;
+    padding: 5px 10px 5px 10px;
+    background-color: blue;
+    color: aqua;
+    border-radius: 10% ;
+}
+header a{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+header .botonContratame{
+    transform: scale(1);
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(80, 80, 190);
+    color: white;
+    border: rgb(80, 80, 190);
+    border-radius: 10%;
+}
+header .botonContratame:hover{
+    transform: scale(1);
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+    color: rgb(80, 80, 190);
+    border: 0.4vh solid rgb(80, 80, 190);
+    border-radius: 10%;
+
+}
+header .botonContratame{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
