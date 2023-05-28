@@ -14,28 +14,39 @@ ul{
     list-style-type: none;
 }
 header{
-    background-color: chartreuse;
+    background-color: rgb(9, 10, 26);
     display: flex;
     justify-content: space-evenly;
     height: 5rem;
     align-items: center;
 }
+header h2{
+    color: rgb(101, 124, 255);
+}
 footer{
     padding: 4.5rem 0;
-    background-color: springgreen;
+    background-color: rgb(9, 10, 26);
 }
 
 .hero{
     
-    background-color: aquamarine;
+    background-color: rgb(9, 10, 26);
     display: flex;
     height: 140vh;
     
 }
 .imgHero{
+    position: relative;
     width: 40rem;
-    
+    background: transparent;
+    transition: 3s;
 }
+.imgHero:hover{
+    background: var(--bg--color);
+    opacity: .10;
+}
+
+ 
 .seccionDos{
     padding: 4.5rem 0;
     background-color: darkgoldenrod;
@@ -118,11 +129,11 @@ footer{
 }
 .botonRedesSociales{
     height: 4rem;
-    background-color:  aquamarine;
-    border: aquamarine;
+    background-color: rgb(9, 10, 26);
+    border: rgb(9, 10, 26);
     margin-left: 0.4rem ;
     margin-top: 1rem;
-    border-left: 3px solid rgb(80, 80, 190);
+    border-left: 3px solid rgb(139, 156, 244);
     
 }
 .hola{
@@ -132,7 +143,7 @@ footer{
     margin-left: 18rem;
     font-size: 15rem;
     font-weight: 900;
-    color: moccasin;
+    color: rgb(34, 34, 49);
 }
 .divNombre{
     display: flex;
@@ -144,16 +155,19 @@ footer{
     justify-content: center;
     text-align: center;
     font-family: 'Mulish', sans-serif;
+    color: white;
 }
 
 .montenegro{
     font-family: 'Mulish', sans-serif;
+    color: white;
 }
 
 .rodrigo{
     margin-left: 1rem;
     margin-top: -0.5rem;
     font-family: 'Mulish', sans-serif;
+    color: white;
 }
 .divCurriculum{
     margin-left: 12.6rem ;
@@ -167,6 +181,10 @@ footer{
 }
 .profesor{
     margin-top: 1rem;
+    color: white;
+}
+.diseñadorWeb{
+    color: white;
 }
 
 
@@ -257,3 +275,6 @@ header .botonContratame{
     writing-mode: vertical-lr;
     text-orientation: mixed;
  }
+
+
+ 
