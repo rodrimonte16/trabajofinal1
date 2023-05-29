@@ -74,7 +74,7 @@ footer{
 }
 .seccionPortfolio{
     padding: 4.5rem 0;
-    background-color:violet;
+    background-color:rgb(9, 10, 26);
 }
 .seccionContacto{
     padding: 4.5rem 0;
@@ -237,10 +237,6 @@ header .botonContratame:hover{
     color: white;
     border: 0.4vh solid rgb(96, 118, 248);
     border-radius: 10%;
-    
-    
-    
-
 }
 header .botonContratame{
     transition: background 0.3s;
@@ -433,8 +429,7 @@ header .botonContratame{
     justify-content: center;
     margin-left: 3.5rem;
     transform: scale(1);
-    
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .divaSeccionSkill a:hover{
     transform: scale(1);
@@ -558,4 +553,133 @@ header .botonContratame{
     bottom: -2.8rem;
     margin-left: 57.2rem;
     font-size: 0.7rem;
+}
+
+/*SECCION 4*/
+
+.tituloSeccionPortfolio{
+    justify-content: center;
+    margin-left: 28rem;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(34, 34, 49);
+}
+
+.divaSeccionPortfolio a{
+    position: relative;
+    left: 24.5rem;
+    bottom: -2rem;
+    justify-content: center;
+    margin-left: 2.4rem;
+    transform: scale(1);
+    font-size: 1.5rem;
+}
+
+.divaSeccionPortfolio a:hover{
+    transform: scale(1);
+    margin-left: 2rem;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(23, 27, 60);
+    color: rgb(96, 118, 248);
+    border-radius: 10% ;
+}
+.divaSeccionPortfolio a{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+.ImgUno{
+    position: relative;
+    width: 73rem;
+    height: 40rem;
+    background: transparent;
+    transition: 3s;
+    bottom: -70rem;
+    left: 5.5rem; 
+    border-radius: 4vh;
+}
+.ImgDos{
+    position: relative;
+    width: 73rem;
+    height: 40rem;
+    background: transparent;
+    transition: 3s;
+    bottom: -71.5rem;
+    left: 5.5rem;
+    border-radius: 4vh;
+}
+
+.ImgTres{
+    position: relative;
+    width: 45rem;
+    height: 40rem;
+    background: transparent;
+    transition: 3s;
+    bottom: 52.7rem;
+    left: 5.5rem;
+    border-radius: 4vh;
+}
+
+.ImgCuatro{
+    position: relative;
+    width: 35rem;
+    height: 20rem;
+    background: transparent;
+    transition: 3s;
+    bottom: 115rem;
+    border-radius: 4vh;
+    left: 2rem;
+}
+
+.ImgCinco{
+    position: relative;
+    width: 35rem;
+    height: 20rem;
+    background: transparent;
+    transition: 3s;
+    bottom: 115rem;
+    left: -2rem;
+    border-radius: 4vh;
+}
+
+.ImgSeis{
+    position: relative;
+    width: 25rem;
+    height: 40rem;
+    background: transparent;
+    transition: 3s;
+    bottom: 113rem;
+    left: 53.7rem;
+    border-radius: 4vh;
+}
+
+.divImgArriba{
+    display: flex;
+    justify-content:space-around;
+}
+
+.botonPortfolio{
+    position: relative;
+    bottom: 27rem;
+    left: 40rem;
+    transform: scale(1);
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(100, 123, 225);
+    color: white;
+    border: rgb(100, 123, 225);
+    border-radius: 4vh;
+}
+.botonPortfolio:hover{
+    transform: scale(1);
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(23, 27, 60);
+    color: white;
+    border: 0.4vh solid rgb(96, 118, 248);
+    border-radius: 4vh;
+}
+.botonPortfolio{
+    transition: background 0.3s;
+                 transform: 0.2s;
 }
