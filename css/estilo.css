@@ -74,7 +74,8 @@ footer{
 }
 .seccionPortfolio{
     padding: 4.5rem 0;
-    background-color:rgb(9, 10, 26);
+    height: 157rem;
+    background-color: rgb(9, 10, 26);
 }
 .seccionContacto{
     padding: 4.5rem 0;
@@ -556,7 +557,36 @@ header .botonContratame{
 }
 
 /*SECCION 4*/
+.tituloSeccionPortfolio{
+    justify-content: center;
+    margin-left: 28rem;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(34, 34, 49);
+}
 
+.divaSeccionPortfolio a{
+    position: relative;
+    left: 24.5rem;
+    bottom: -2rem;
+    justify-content: center;
+    margin-left: 2.4rem;
+    transform: scale(1);
+    font-size: 1.5rem;
+}
+
+.divaSeccionPortfolio a:hover{
+    transform: scale(1);
+    margin-left: 2rem;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(23, 27, 60);
+    color: rgb(96, 118, 248);
+    border-radius: 10% ;
+}
+.divaSeccionPortfolio a{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
 .tituloSeccionPortfolio{
     justify-content: center;
     margin-left: 28rem;
@@ -588,23 +618,14 @@ header .botonContratame{
                  transform: 0.2s;
 }
 
-.ImgUno{
-    position: relative;
-    width: 73rem;
-    height: 40rem;
-    background: transparent;
-    transition: 3s;
-    bottom: -70rem;
-    left: 5.5rem; 
-    border-radius: 4vh;
-}
+
 .ImgDos{
     position: relative;
     width: 73rem;
     height: 40rem;
     background: transparent;
     transition: 3s;
-    bottom: -71.5rem;
+    bottom: -62rem;
     left: 5.5rem;
     border-radius: 4vh;
 }
@@ -612,7 +633,7 @@ header .botonContratame{
 .ImgTres{
     position: relative;
     width: 45rem;
-    height: 40rem;
+    height: 30rem;
     background: transparent;
     transition: 3s;
     bottom: 52.7rem;
@@ -626,7 +647,7 @@ header .botonContratame{
     height: 20rem;
     background: transparent;
     transition: 3s;
-    bottom: 115rem;
+    bottom: 105rem;
     border-radius: 4vh;
     left: 2rem;
 }
@@ -637,7 +658,7 @@ header .botonContratame{
     height: 20rem;
     background: transparent;
     transition: 3s;
-    bottom: 115rem;
+    bottom: 105rem;
     left: -2rem;
     border-radius: 4vh;
 }
@@ -645,10 +666,10 @@ header .botonContratame{
 .ImgSeis{
     position: relative;
     width: 25rem;
-    height: 40rem;
+    height: 30rem;
     background: transparent;
     transition: 3s;
-    bottom: 113rem;
+    bottom: 103rem;
     left: 53.7rem;
     border-radius: 4vh;
 }
@@ -660,7 +681,7 @@ header .botonContratame{
 
 .botonPortfolio{
     position: relative;
-    bottom: 27rem;
+    bottom: 12rem;
     left: 40rem;
     transform: scale(1);
     font-size: 0.8rem;
@@ -683,3 +704,55 @@ header .botonContratame{
     transition: background 0.3s;
                  transform: 0.2s;
 }
+.ImgUno{
+    position: relative;
+    width: 73rem;
+    height: 40rem;
+    background: transparent;
+    transition: 3s;
+    bottom: -60rem;
+    left: 5.5rem; 
+    border-radius: 4vh;
+
+}
+.ImgUno{
+    transition: .5s ease;
+}
+.ImgUno:hover{
+    transform: scale(1.1) ;
+}
+
+
+
+.ImgDos{
+    transition: .5s ease;
+}
+.ImgDos:hover{
+    transform: scale(1.1) ;
+}
+
+.ImgTres{
+    transition: .5s ease;
+}
+.ImgTres:hover{
+    transform: scale(1.1) ;
+}
+.ImgCuatro{
+    transition: .5s ease;
+}
+.ImgCuatro:hover{
+    transform: scale(1.1) ;
+}
+.ImgCinco{
+    transition: .5s ease;
+}
+.ImgCinco:hover{
+    transform: scale(1.1) ;
+}
+.ImgSeis{
+    transition: .5s ease;
+}
+.ImgSeis:hover{
+    transform: scale(1.1) ;
+}
+
