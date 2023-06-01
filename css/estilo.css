@@ -74,7 +74,7 @@ footer{
 }
 .seccionPortfolio{
     padding: 4.5rem 0;
-    height: 157rem;
+    height: 80rem;
     background-color: rgb(9, 10, 26);
 }
 .seccionContacto{
@@ -618,70 +618,445 @@ header .botonContratame{
                  transform: 0.2s;
 }
 
-
-.ImgDos{
-    position: relative;
-    width: 73rem;
-    height: 40rem;
-    background: transparent;
-    transition: 3s;
-    bottom: -62rem;
-    left: 5.5rem;
-    border-radius: 4vh;
+/*Prueba*/
+.grid {
+    width: 100%;
+    margin: 1.5rem 0;
 }
-
-.ImgTres{
-    position: relative;
-    width: 45rem;
-    height: 30rem;
-    background: transparent;
-    transition: 3s;
-    bottom: 52.7rem;
-    left: 5.5rem;
-    border-radius: 4vh;
-}
-
-.ImgCuatro{
-    position: relative;
-    width: 35rem;
-    height: 20rem;
-    background: transparent;
-    transition: 3s;
-    bottom: 105rem;
-    border-radius: 4vh;
-    left: 2rem;
-}
-
-.ImgCinco{
-    position: relative;
-    width: 35rem;
-    height: 20rem;
-    background: transparent;
-    transition: 3s;
-    bottom: 105rem;
-    left: -2rem;
-    border-radius: 4vh;
-}
-
-.ImgSeis{
-    position: relative;
-    width: 25rem;
-    height: 30rem;
-    background: transparent;
-    transition: 3s;
-    bottom: 103rem;
-    left: 53.7rem;
-    border-radius: 4vh;
-}
-
-.divImgArriba{
+.grid-item{
+    width: 22%;
+    padding: 1rem 1.2rem;
     display: flex;
-    justify-content:space-around;
+    justify-content: center;
+}
+.grid-itemUno{
+    position: relative;
+    left: 35rem;
+    top: 29rem;
+    width: 49%;
+    
+
+}
+.grid-itemDos{
+    position: relative;
+    left: 58rem;
+    top: -12rem;
+    width: 22%;
+    
+}
+.grid-itemTres{
+    position: relative;
+    left: 35rem;
+    top: -28rem;
+    width: 22%;
+}
+.grid-itemCuatro{
+    position: relative;
+    left: 10rem;
+    top: -44rem;
+    width: 22%;
+}
+.grid-itemCinco{
+    position: relative;
+    left: 10rem;
+    top: -42.5rem;
+    width: 22%;
+
+}
+.grid-itemSeis{
+    position: relative;
+    left: 35rem;
+    top: -31.5rem;
+    width: 22%;
+}
+.grid-itemSiete{
+    position: relative;
+    left: 55rem;
+    top: -42.5rem;
+    width: 22%;
+}
+.grid-itemOcho{
+    position: relative;
+    left: 10rem;
+    top: -62rem;
+    width: 22%;
+
+}
+.galeria-imagenes{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+}
+.galeria-imagenesUno{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 360px;
+    width: 100%;
+    cursor: pointer;
+}
+.galeria-imagenesCinco{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 227px;
+    width: 100%;
+    cursor: pointer;
+}
+.galeria-imagenesSeis{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 180px;
+    width: 100%;
+    cursor: pointer;
+}
+.galeria-imagenesSiete{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 180px;
+    width: 100%;
+    cursor: pointer;
+}
+.galeria-imagenesOcho{
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    height: 312px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.galeria-imagenesUno img{
+    position: absolute;
+    height: 100%;
+    width: initial;
+    top: 50%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    
+}
+.galeria-imagenesCinco img{
+    position: absolute;
+    height: 100%;
+    width: initial;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.galeria-imagenesSeis img{
+    position: absolute;
+    height: 100%;
+    width: initial;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%, -50%);
+
+}
+.galeria-imagenesSiete img{
+    position: absolute;
+    height: 100%;
+    width: initial;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%, -50%);
+
+}
+.galeria-imagenesOcho img{
+    position: absolute;
+    height: 100%;
+    width: initial;
+    top: 50%;
+    left:110%;
+    transform: translate(-50%, -50%);
+}
+.galeria-imagenes img{
+    position: absolute;
+    height: 100%;
+    width: initial;
+    top: 50%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.galeria-imagenesUno .img-overlayUno{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--light-one);
+    background-color: rgba(120, 76, 251, 0.55);
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3.2rem;
+    opacity: 0;
+    transition: .5s;
+}
+.galeria-imagenesCinco .img-overlayCinco{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--light-one);
+    background-color: rgba(120, 76, 251, 0.55);
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3.2rem;
+    opacity: 0;
+    transition: .5s;
+}
+.galeria-imagenesSeis .img-overlaySeis{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--light-one);
+    background-color: rgba(120, 76, 251, 0.55);
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3.2rem;
+    opacity: 0;
+    transition: .5s;
+}
+.galeria-imagenesSiete .img-overlaySiete{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--light-one);
+    background-color: rgba(120, 76, 251, 0.55);
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3.2rem;
+    opacity: 0;
+    transition: .5s;
+}
+.galeria-imagenesOcho .img-overlayOcho{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--light-one);
+    background-color: rgba(120, 76, 251, 0.55);
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3.2rem;
+    opacity: 0;
+    transition: .5s;
+}
+.galeria-imagenes .img-overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: var(--light-one);
+    background-color: rgba(120, 76, 251, 0.55);
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem 3.2rem;
+    opacity: 0;
+    transition: .5s;
+}
+
+
+.img-overlay .plus{
+    position: relative;
+    margin: auto 0;
+}
+.plus:before, .plus::after{
+    content: "";
+    position: absolute;
+    width: 4.5rem;
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--light-one);
+    border-radius: 3px;
+}
+
+.plus:before{
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.img-description{
+    width: 100%;
+}
+
+.img-overlay h3{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.img-overlay h5{
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.img-overlayUno h3{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.img-overlayUno h5{
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.img-overlayCinco h3{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.img-overlayCinco h5{
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.img-overlaySeis h3{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.img-overlaySeis h5{
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.img-overlaySiete h3{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.img-overlaySiete h5{
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.img-overlayOcho h3{
+    font-size:1.5rem;
+    font-weight: 300;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+
+.img-overlayOcho h5{
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.img-descriptionOcho{
+    position: relative;
+    left: -8rem;
+    bottom: 2.5rem;
+}
+.img-descriptionSiete{
+    position: relative;
+    left: -8rem;
+    bottom: 2.5rem;
+
+}
+.img-descriptionSeis{
+    position: relative;
+    left: -8rem;
+    bottom: 2.5rem;
+}
+.img-descriptionCinco{
+    position: relative;
+    left: -20rem;
+    bottom: 3rem;
+}
+.img-descriptionCuatro{
+    position: relative;
+    left: -8rem;
+    bottom: 3rem;
+}
+.img-description{
+    position: relative;
+    left: 1rem;
+    bottom: 3rem;
+}
+.galeria-imagenes:hover .img-overlay{
+    opacity: 1;
+}
+
+.galeria-imagenesUno:hover .img-overlayUno{
+    opacity: 1;
+}
+.galeria-imagenesCinco:hover .img-overlayCinco{
+    opacity: 1;
+}
+
+.galeria-imagenesSeis:hover .img-overlaySeis{
+    opacity: 1;
+}
+
+.galeria-imagenesSiete:hover .img-overlaySiete{
+    opacity: 1;
+}
+.galeria-imagenesOcho:hover .img-overlayOcho{
+    opacity: 1;
 }
 
 .botonPortfolio{
     position: relative;
-    bottom: 12rem;
+    bottom: 57rem;
     left: 40rem;
     transform: scale(1);
     font-size: 0.8rem;
@@ -704,55 +1079,3 @@ header .botonContratame{
     transition: background 0.3s;
                  transform: 0.2s;
 }
-.ImgUno{
-    position: relative;
-    width: 73rem;
-    height: 40rem;
-    background: transparent;
-    transition: 3s;
-    bottom: -60rem;
-    left: 5.5rem; 
-    border-radius: 4vh;
-
-}
-.ImgUno{
-    transition: .5s ease;
-}
-.ImgUno:hover{
-    transform: scale(1.1) ;
-}
-
-
-
-.ImgDos{
-    transition: .5s ease;
-}
-.ImgDos:hover{
-    transform: scale(1.1) ;
-}
-
-.ImgTres{
-    transition: .5s ease;
-}
-.ImgTres:hover{
-    transform: scale(1.1) ;
-}
-.ImgCuatro{
-    transition: .5s ease;
-}
-.ImgCuatro:hover{
-    transform: scale(1.1) ;
-}
-.ImgCinco{
-    transition: .5s ease;
-}
-.ImgCinco:hover{
-    transform: scale(1.1) ;
-}
-.ImgSeis{
-    transition: .5s ease;
-}
-.ImgSeis:hover{
-    transform: scale(1.1) ;
-}
-
