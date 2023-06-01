@@ -25,7 +25,7 @@ header h2{
 }
 footer{
     padding: 4.5rem 0;
-    background-color: rgb(9, 10, 26);
+    background-color: rgb(221, 218, 21);
 }
 
 .hero{
@@ -79,7 +79,7 @@ footer{
 }
 .seccionContacto{
     padding: 4.5rem 0;
-    background-color: lawngreen;
+    background-color: rgb(9, 10, 26);
     flex-direction: column;
 }
 
@@ -618,7 +618,7 @@ header .botonContratame{
                  transform: 0.2s;
 }
 
-/*Prueba*/
+
 .grid {
     width: 100%;
     margin: 1.5rem 0;
@@ -1122,6 +1122,79 @@ header .botonContratame{
     border-radius: 4vh;
 }
 .botonPortfolio{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+/*SECCION 5*/
+
+.tituloSeccionContacto{
+    justify-content: center;
+    margin-left: 28rem;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(34, 34, 49);
+}
+
+.ImputUnoSeccionCinco{
+    position: relative;
+    background-color: rgb(14, 15, 38);
+    height: 4rem;
+    width: 42rem;
+    border-radius: 10px ;
+    border: 0;
+    left: 20rem;
+    margin-top: 1rem;
+    
+}
+.ImputDosSeccionCinco{
+        position: relative;
+        background-color: rgb(14, 15, 38);
+        height: 15rem;
+        width: 42rem;
+        border-radius: 10px ;
+        border: 0;
+        left: 20rem;
+        margin-top: 1rem;
+        
+    }
+
+.ImputDosSeccionCinco::placeholder{
+    color: white;
+    position: relative;
+    left: 5vh;
+    top:-15vh;
+}
+
+::placeholder{
+    color: white;
+    position: relative;
+    left: 5vh;
+    top:0.5vh;
+}
+
+.botonContanto{
+    position: relative;
+    bottom: -2rem;
+    left: 38rem;
+    transform: scale(1);
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(100, 123, 225);
+    color: white;
+    border: rgb(100, 123, 225);
+    border-radius: 4vh;
+}
+.botonContanto:hover{
+    transform: scale(1);
+    font-size: 0.8rem;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(23, 27, 60);
+    color: white;
+    border: 0.4vh solid rgb(96, 118, 248);
+    border-radius: 4vh;
+}
+.botonContanto{
     transition: background 0.3s;
                  transform: 0.2s;
 }
