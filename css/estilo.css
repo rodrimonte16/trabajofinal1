@@ -677,9 +677,9 @@ header .botonContratame{
 }
 .grid-itemOcho{
     position: relative;
-    left: 10rem;
-    top: -62rem;
-    width: 22%;
+    left: -45rem;
+    top: -21rem;
+    width: 100%;
 
 }
 .galeria-imagenes{
@@ -1012,20 +1012,66 @@ header .botonContratame{
     bottom: 2.5rem;
 
 }
+.expandirSiete{
+    position: relative;
+    left: 11rem;
+    top: -5rem;
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+.expandirUno{
+    position: relative;
+    left: 12rem;
+    top: -7rem;
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
 .img-descriptionSeis{
     position: relative;
     left: -8rem;
     bottom: 2.5rem;
+}
+.expandirSeis{
+    position: relative;
+    left: 11rem;
+    top: -9rem;
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
 }
 .img-descriptionCinco{
     position: relative;
     left: -20rem;
     bottom: 3rem;
 }
+.expandirCinco{
+    position: relative;
+    left: 23rem;
+    top: -10rem;
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
 .img-descriptionCuatro{
     position: relative;
     left: -8rem;
     bottom: 3rem;
+}
+.expandirCuatro{
+    position: relative;
+    left: 11rem;
+    top: -6rem;
+    font-size:1rem;
+    font-weight: 200;
+    color: white;
+    font-family: 'Mulish', sans-serif;
 }
 .img-description{
     position: relative;
