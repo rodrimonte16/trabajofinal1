@@ -24,8 +24,9 @@ header h2{
     color: rgb(101, 124, 255);
 }
 footer{
-    padding: 4.5rem 0;
-    background-color: rgb(221, 218, 21);
+    padding: 3.5rem 0;
+   
+    background-color: rgb(9, 10, 26);
 }
 
 .hero{
@@ -1197,4 +1198,95 @@ header .botonContratame{
 .botonContanto{
     transition: background 0.3s;
                  transform: 0.2s;
+}
+
+/*FOOTER*/
+footer h2{
+    color: rgb(101, 124, 255);
+}
+
+.redesSocialesFooter{
+    display: flex;
+    margin-top: 5rem;
+    color:rgb(101, 124, 255);
+    margin-left: -1rem;
+    
+}
+.redesSocialesFooter a{
+    transform: scale(1);
+    margin-top: -4rem;
+    color:rgb(101, 124, 255);
+    margin-left: 1rem;
+}
+.redesSocialesFooter a:hover{
+    transform: scale(1);
+    color: white;
+    
+}
+.redesSocialesFooter a{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+.divQuickLink h3{
+   
+    font-family: 'Mulish', sans-serif;
+    color: white;
+
+}
+footer a{
+    transform: scale(1);
+    display: block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    color:white;
+    font-family: 'Mulish', sans-serif;
+}
+
+footer a:hover{
+    transform: scale(1);
+    color: rgb(96, 118, 248);
+   
+}
+footer a{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+footer p{
+    font-size: 0.8rem;
+    color:white;
+    font-family: 'Mulish', sans-serif;
+}
+
+.copyright{
+    display: flex;
+    color: white;
+    margin-left: 37rem;
+    margin-bottom: -4rem;
+
+}
+.C{
+    position: relative;
+    left: -0.3rem;
+    bottom: 0.1rem;
+    
+}
+.botonFooter{
+    position: relative;
+    bottom: -1rem;
+    width: 100%;
+    border: 0.1rem solid white;
+}
+
+.divFooter{
+    margin-left: 12rem;
+}
+
+.divQuick{
+    margin-left: 5rem;
+}
+.divQuickLinkDos{
+    margin-left: 2rem;
+    color: white;
 }
