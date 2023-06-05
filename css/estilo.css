@@ -1288,20 +1288,22 @@ header .botonContratame{
 /*FOOTER*/
 footer h2{
     color: rgb(101, 124, 255);
+    margin-left: 1.5rem;
+    margin-top: 4.7rem;
 }
 
 .redesSocialesFooter{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 0.5rem;
     color:rgb(101, 124, 255);
-    margin-left: -1rem;
+    margin-left: 1rem;
     
 }
 .redesSocialesFooter a{
     transform: scale(1);
-    margin-top: -4rem;
+    margin-top: 0.5rem;
     color:rgb(101, 124, 255);
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 .redesSocialesFooter a:hover{
     transform: scale(1);
@@ -1317,7 +1319,7 @@ footer h2{
    
     font-family: 'Mulish', sans-serif;
     color: white;
-
+    margin-top: 5rem;
 }
 footer a{
     transform: scale(1);
@@ -1326,8 +1328,12 @@ footer a{
     font-size: 0.8rem;
     color:white;
     font-family: 'Mulish', sans-serif;
+    top: -5rem;
 }
 
+.navHome{
+    margin-top: 2rem;
+}
 footer a:hover{
     transform: scale(1);
     color: rgb(96, 118, 248);
@@ -1342,13 +1348,18 @@ footer p{
     font-size: 0.8rem;
     color:white;
     font-family: 'Mulish', sans-serif;
+    
+}
+.FooterProfe{
+    margin-left: 3rem;
+    margin-top: 1.5rem;
 }
 
 .copyright{
     display: flex;
     color: white;
     margin-left: 37rem;
-    margin-bottom: -4rem;
+    margin-bottom: -5rem;
 
 }
 .C{
@@ -1372,6 +1383,23 @@ footer p{
     margin-left: 5rem;
 }
 .divQuickLinkDos{
-    margin-left: 2rem;
+    
+    margin-left: 6rem;
     color: white;
+    margin-top: 5rem;
+}
+
+.divQuickLinkTres h3{
+    margin-left: 6rem;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    margin-top: 5rem;
+
+}
+.navHomeTres{
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+.DivCoppyright{
+    margin-top: 3rem;
 }
