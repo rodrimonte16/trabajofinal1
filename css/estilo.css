@@ -25,6 +25,7 @@
     .hamburguesa{
         position: relative;
         display: block;
+        width: 1rem;
         left: -54rem;
     }
     .navHeader{
