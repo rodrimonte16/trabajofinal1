@@ -2,14 +2,17 @@
     body{
         width: 90rem;
     }
+
     header{
         position: fixed;
     }
     header h2{
         margin-left: -62rem;
+        flex-direction: column;
     }
+  
     .contenedorRedesSociales{
-        left: 12rem;
+        margin-left: 9rem;
     }
     .soy{
         margin-left: 2rem;
@@ -19,11 +22,31 @@
         margin-left: 3rem;
         top: 0;
     }
+    .hamburguesa{
+        position: relative;
+        display: block;
+        left: -54rem;
+    }
     .navHeader{
         display: none
     }
     .botonContratame{
         display: none
+    }
+    .grid-itemSiete{
+        margin-left: 1.5rem;
+    }
+    .grid-itemOcho{
+        margin-left: -1.5rem;
+    }
+    .grid-itemDos{
+        margin-left: 1rem;
+    }
+    .grid-itemTres{
+        margin-left: 1rem;
+    }
+    .hamburguesa{
+        display: block
     }
 
 }
@@ -63,7 +86,9 @@ footer{
     padding: 3.5rem 0;
     background-color: rgb(9, 10, 26);
 }
-
+.hamburguesa{
+  display: none;
+}
 .hero{
     background-color:rgb(9, 10, 26);
     display: flex;
@@ -221,6 +246,7 @@ footer{
 .contenedorRedesSociales a{
     transform: scale(1);
     margin-top: 1rem;
+    font-size: 0.8rem;
 }
 .contenedorRedesSociales a:hover{
     transform: scale(1);
@@ -239,6 +265,7 @@ footer{
     border-left: 3px solid rgb(139, 156, 244);
     
 }
+
 .hola{
     position: relative;
     justify-content: center;
