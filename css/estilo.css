@@ -48,6 +48,10 @@
     .hamburguesa{
         display: block
     }
+    .divContenedor{
+        position: relative;
+        left: 3rem;
+    }
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;1000&display=swap');
