@@ -1,4 +1,4 @@
-@media(max-width:768px){
+@media (max-width:768px){
     body{
         width: 90rem;
     }
@@ -10,6 +10,7 @@
         margin-left: -62rem;
         flex-direction: column;
     }
+    
   
     .contenedorRedesSociales{
         margin-left: 9rem;
@@ -20,7 +21,7 @@
     .imgHero{
         position: relative;
         margin-left: 3rem;
-        top: 0;
+        top: -4rem;
     }
     .hamburguesa{
         position: relative;
