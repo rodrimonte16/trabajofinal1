@@ -644,13 +644,7 @@ header .botonContratame{
 }
 
 /*SECCION 4*/
-.tituloSeccionPortfolio{
-    justify-content: center;
-    margin-left: 28rem;
-    font-size: 4rem;
-    font-weight: 900;
-    color: rgb(34, 34, 49);
-}
+
 
 .divaSeccionPortfolio a{
     position: relative;
@@ -660,6 +654,7 @@ header .botonContratame{
     margin-left: 2.4rem;
     transform: scale(1);
     font-size: 1.5rem;
+    border-radius: 1vh;
 }
 
 .divaSeccionPortfolio a:hover{
@@ -668,7 +663,7 @@ header .botonContratame{
     padding: 5px 10px 5px 10px;
     background-color: rgb(23, 27, 60);
     color: rgb(96, 118, 248);
-    border-radius: 10% ;
+    border-radius: 1vh ;
 }
 .divaSeccionPortfolio a{
     transition: background 0.3s;
@@ -676,8 +671,8 @@ header .botonContratame{
 }
 .tituloSeccionPortfolio{
     justify-content: center;
-    margin-left: 28rem;
-    font-size: 4rem;
+    margin-left: 22rem;
+    font-size: 7rem;
     font-weight: 900;
     color: rgb(34, 34, 49);
 }
@@ -698,7 +693,7 @@ header .botonContratame{
     padding: 5px 10px 5px 10px;
     background-color: rgb(23, 27, 60);
     color: rgb(96, 118, 248);
-    border-radius: 10% ;
+    border-radius: 1vh ;
 }
 .divaSeccionPortfolio a{
     transition: background 0.3s;
@@ -718,54 +713,54 @@ header .botonContratame{
 }
 .grid-itemUno{
     position: relative;
-    left: 35rem;
-    top: 29rem;
-    width: 49%;
+    left: 33rem;
+    top: 21.5rem;
+    width: 46%;
     
 
 }
 .grid-itemDos{
     position: relative;
-    left: 58rem;
-    top: -12rem;
+    left: 53.5rem;
+    top: -18.6rem;
     width: 22%;
     
 }
 .grid-itemTres{
     position: relative;
-    left: 35rem;
-    top: -28rem;
+    left: 33rem;
+    top: -34.2rem;
     width: 22%;
 }
 .grid-itemCuatro{
     position: relative;
-    left: 10rem;
-    top: -44rem;
+    left: 12.5rem;
+    top: -49.8rem;
     width: 22%;
 }
 .grid-itemCinco{
     position: relative;
-    left: 10rem;
-    top: -42.5rem;
+    left: 12.5rem;
+    top: -48rem;
     width: 22%;
 
 }
 .grid-itemSeis{
     position: relative;
-    left: 35rem;
-    top: -31.5rem;
+    left: 33rem;
+    top: -38.5rem;
     width: 22%;
 }
 .grid-itemSiete{
     position: relative;
-    left: 55rem;
-    top: -42.5rem;
+    left: 53rem;
+    top: -49.7rem;
     width: 22%;
 }
 .grid-itemOcho{
     position: relative;
-    left: -45rem;
-    top: -21rem;
+    left: -40.5rem;
+    top: -19.5rem;
     width: 100%;
 
 }
@@ -1187,26 +1182,28 @@ header .botonContratame{
     opacity: 1;
 }
 
+
+
 .botonPortfolio{
     position: relative;
-    bottom: 57rem;
+    bottom: 67rem;
     left: 40rem;
     transform: scale(1);
     font-size: 0.8rem;
-    padding: 20px 20px 20px 20px;
+    padding: 8px 23px 8px 23px;
     background-color:rgb(100, 123, 225);
     color: white;
     border: rgb(100, 123, 225);
-    border-radius: 4vh;
+    border-radius: 1vh;
 }
 .botonPortfolio:hover{
     transform: scale(1);
     font-size: 0.8rem;
-    padding: 20px 20px 20px 20px;
+    padding: 8px 23px 8px 23px;
     background-color: rgb(23, 27, 60);
     color: white;
     border: 0.4vh solid rgb(96, 118, 248);
-    border-radius: 4vh;
+    border-radius: 1vh;
 }
 .botonPortfolio{
     transition: background 0.3s;
