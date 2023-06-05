@@ -139,7 +139,7 @@ footer{
 }
 .seccionPortfolio{
     padding: 4.5rem 0;
-    height: 80rem;
+    height: 75rem;
     background-color: rgb(9, 10, 26);
 }
 .seccionContacto{
@@ -1214,8 +1214,8 @@ header .botonContratame{
 
 .tituloSeccionContacto{
     justify-content: center;
-    margin-left: 28rem;
-    font-size: 4rem;
+    margin-left: 25rem;
+    font-size: 7rem;
     font-weight: 900;
     color: rgb(34, 34, 49);
 }
@@ -1229,6 +1229,7 @@ header .botonContratame{
     border: 0;
     left: 20rem;
     margin-top: 1rem;
+    top: 2rem;
     
 }
 .ImputDosSeccionCinco{
@@ -1240,6 +1241,7 @@ header .botonContratame{
         border: 0;
         left: 20rem;
         margin-top: 1rem;
+        top: 2rem;
         
     }
 
@@ -1259,24 +1261,24 @@ header .botonContratame{
 
 .botonContanto{
     position: relative;
-    bottom: -2rem;
-    left: 38rem;
+    bottom: -4rem;
+    left: 37rem;
     transform: scale(1);
     font-size: 0.8rem;
-    padding: 20px 20px 20px 20px;
+    padding: 17px 45px 17px 45px;
     background-color:rgb(100, 123, 225);
     color: white;
     border: rgb(100, 123, 225);
-    border-radius: 4vh;
+    border-radius: 1vh;
 }
 .botonContanto:hover{
     transform: scale(1);
     font-size: 0.8rem;
-    padding: 20px 20px 20px 20px;
+    padding: 17px 45px 17px 45px;
     background-color: rgb(23, 27, 60);
     color: white;
     border: 0.4vh solid rgb(96, 118, 248);
-    border-radius: 4vh;
+    border-radius: 1vh;
 }
 .botonContanto{
     transition: background 0.3s;
