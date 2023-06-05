@@ -503,8 +503,8 @@ header .botonContratame{
 
 .tituloSeccionSkill{
     justify-content: center;
-    margin-left: 28rem;
-    font-size: 4rem;
+    margin-left: 20rem;
+    font-size: 7rem;
     font-weight: 900;
     color: rgb(34, 34, 49);
 }
@@ -517,6 +517,7 @@ header .botonContratame{
     margin-left: 3.5rem;
     transform: scale(1);
     font-size: 1.5rem;
+    border-radius: 1vh;
 }
 .divaSeccionSkill a:hover{
     transform: scale(1);
@@ -524,7 +525,7 @@ header .botonContratame{
     padding: 5px 10px 5px 10px;
     background-color: rgb(23, 27, 60);
     color: rgb(96, 118, 248);
-    border-radius: 10% ;
+    border-radius: 1vh ;
 }
 .divaSeccionSkill a{
     transition: background 0.3s;
