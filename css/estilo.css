@@ -201,8 +201,8 @@ footer{
 }
 .figuras .lineaondulada{
     height: 1rem;
-    left: 30rem;
-    bottom: 18rem;
+    left: 31rem;
+    bottom: 17rem;
     -webkit-transform: rotate(130deg) ;
 }
     
@@ -213,7 +213,7 @@ footer{
 }
 .figuras .cuadradouno{
     height: 1.5rem;
-    left: 23rem;
+    left: 22rem;
     bottom: 20rem;
 }
 
@@ -223,7 +223,7 @@ footer{
 }
 .figuras .cuadradodos{
     height: 2rem;
-    left: 63rem;
+    left: 65rem;
     top: 14rem;
 }
 .figuras .cuadradotres{
@@ -232,8 +232,8 @@ footer{
 }
 .figuras .cuadradotres{
     height: 1rem;
-    left: 27rem;
-    top: 35rem;
+    left: 29rem;
+    top: 37rem;
 }
 
 .imgHero{
