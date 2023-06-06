@@ -7,6 +7,25 @@
         margin-left: 1rem;
         top: -4rem;
     }
+    .navHeader{
+        display: none;
+    }
+    .botonContratame{
+        display: none;
+    }
+    header .DivHamburguesa{
+        display: block;
+        color: rgb(101, 124, 255);
+        font-size: 4rem;
+        margin-left: 125rem ;
+        margin-top: 2rem;
+    
+    }
+    header h2{
+        margin-left: -62rem;
+        
+    }
+
 } 
     
 
