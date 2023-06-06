@@ -22,19 +22,58 @@
     }
     header h2{
         margin-left: -62rem;
-        flex-direction: column;
+        
     }
-    .divHamburguesa{
+    header .DivHamburguesa{
         display: block;
-        color: cornsilk;
-        margin-right: 15rem;
+        color: rgb(101, 124, 255);
+        font-size: 4rem;
+        margin-left: 125rem ;
+        margin-top: 2rem;
+    
+    }
+    .seccionDos{
+        height: 80rem;
+    }
+    .imgPaginaDos{
+        left: 14rem;
+    }
+    .botonImgPaginaDos{
+        position: relative;
+        margin-left: 14rem;
+        margin-bottom: 4rem;
+    }
+    .DivBotonesbio a{
+        font-size: 1.5rem;
+    }
+    .divDatosdeContacto p{
+        width: 500px;
+        font-size: 1.5rem;
+    }
+    .divContenedor{
+        
+        position: relative;
+        left: -27rem;
+        bottom: -36rem;
+        font-size: 1.5rem;
+        
+    }
+    .DivBotonesbio{
+        margin-left: 17rem;
+        font-size: 1rem;
+    }
+    .divBotonesPagDos{
+        position: relative;
+        padding-left: 17rem;
+        bottom: 3rem;
     }
   
     .contenedorRedesSociales{
-        margin-left: 9rem;
+        position: relative;
+        left: 7rem;
     }
     .soy{
-        margin-left: 2rem;
+        margin-left: 0rem;
     }
     .imgHero{
         position: relative;
@@ -50,20 +89,41 @@
     }
     .grid-itemSiete{
         margin-left: 1.5rem;
+        display: none;
     }
     .grid-itemOcho{
         margin-left: -1.5rem;
+        display: none;
     }
     .grid-itemDos{
-        margin-left: 1rem;
+        margin-left: -8rem;
     }
     .grid-itemTres{
-        margin-left: 1rem;
+        margin-left: -9rem;
     }
-    
-    .divContenedor{
-        position: relative;
-        left: 3rem;
+    .grid-itemCuatro{
+        display: none;
+    }
+    .grid-itemSeis{
+        display: none;
+    }
+    .grid-itemCuatro{
+        display: none;
+    }
+    .grid-itemCinco{
+        display: none;
+    }
+    .grid-itemUno{
+        margin-left: -9rem;
+    }
+    .botonPortfolio{
+        top: -5rem;
+    }
+    .divQuickLink{
+        display: none;
+    }
+    .divQuickLinkTres{
+        display: block
     }
 
 }
