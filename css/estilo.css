@@ -177,6 +177,8 @@ header{
 
 header h2{
     color: rgb(101, 124, 255);
+    position: relative;
+
 }
 footer{
     padding: 3.5rem 0;
@@ -364,7 +366,9 @@ footer{
     border-left: 3px solid rgb(139, 156, 244);
     
 }
-
+.DivHamburguesa{
+    display: none;
+}
 .hola{
     position: relative;
     justify-content: center;
@@ -442,8 +446,10 @@ header p{
     
 }
 header a{
+    position: relative;
     transform: scale(1);
     margin-left: 2rem;
+    left: 1rem;
     font-size: 0.8rem;
 }
 header a:hover{
@@ -467,7 +473,10 @@ header .botonContratame{
     color: white;
     border: rgb(100, 123, 225);
     border-radius: 1vh;
+    left: -0.6rem;
+    position: relative;
 }
+
 header .botonContratame:hover{
     transform: scale(1);
     font-size: 0.8rem;
