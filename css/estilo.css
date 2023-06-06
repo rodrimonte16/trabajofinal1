@@ -18,12 +18,17 @@
 
     header{
         position: fixed;
+        color: aliceblue;
     }
     header h2{
         margin-left: -62rem;
         flex-direction: column;
     }
-    
+    .divHamburguesa{
+        display: block;
+        color: cornsilk;
+        margin-right: 15rem;
+    }
   
     .contenedorRedesSociales{
         margin-left: 9rem;
@@ -36,12 +41,7 @@
         margin-left: 3rem;
         top: -4rem;
     }
-    .hamburguesa{
-        position: relative;
-        display: block;
-        width: 15rem;
-        margin-left:12rem;
-    }
+   
     .navHeader{
         display: none
     }
@@ -60,9 +60,7 @@
     .grid-itemTres{
         margin-left: 1rem;
     }
-    .hamburguesa{
-        display: block
-    }
+    
     .divContenedor{
         position: relative;
         left: 3rem;
@@ -105,8 +103,8 @@ footer{
     padding: 3.5rem 0;
     background-color: rgb(9, 10, 26);
 }
-.hamburguesa{
-  display: none;
+.divHamburguesa{
+    display: none;
 }
 .hero{
     background-color:rgb(9, 10, 26);
